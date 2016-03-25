@@ -12,9 +12,6 @@ class Student(object):
 
 	__repr__ = __str__;
 
-'''	@property
-	def name(self):
-		return self._name   '''
 
 s = Student()
 s.age = 18
