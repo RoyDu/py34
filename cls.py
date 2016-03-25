@@ -14,7 +14,7 @@ class Student(object):
 
 '''	@property
 	def name(self):
-		return self._name'''
+		return self._name   '''
 
 s = Student()
 s.age = 18
