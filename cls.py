@@ -10,7 +10,7 @@ class Student(object):
 	def __str__(self):
 		return 'this class is Student!'
 
-	__repr__ = __str__;
+	__repr__  =  __str__;
 
 
 s = Student()
