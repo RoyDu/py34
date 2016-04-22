@@ -20,6 +20,7 @@ class Application(Frame):
 	def hello(self):
 		name = self.nameInput.get() or 'Roy'
 		messagebox.showinfo('Message','Hello, %s' % name)
+		
 app = Application()
 app.master.title('hello')
 app.mainloop();
