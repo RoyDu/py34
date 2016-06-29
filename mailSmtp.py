@@ -14,7 +14,7 @@ def _format_addr(s):
 # input Email id and pwd
 from_addr = 'duzhuoqi@outlook.com'  #input('From: ')
 pwd = input('Password: ')
-to_addr = input('To: ')
+to_addr = 'duzhuoqi@yeah.net' #input('To: ')
 smtp_server = 'smtp-mail.outlook.com'    #input('SMTP server: ')
 
 msg = MIMEMultipart()
